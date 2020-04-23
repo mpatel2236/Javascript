@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<title>Todo List: Javascript Group Project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/todo.css">
+<script src="js/todo.js"></script>
+
+<body>
+
+    <div class="header">
+        <h1>Javascript Group Project</h1>
+    </div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="calender.html">Calender</a></li>
+        <li><a class="active" href="todo.html">To-Do List</a></li>
+        <li><a href="timer.html">Timer</a></li>
+    </ul>
+
+    <br>
+
+    <div id="myDIV" class="header">
+        <h2 style="margin:5px">My To Do List</h2>
+
+
+        <input type="text" id="txt" placeholder="Name of Work">
+
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <div class="todo">
+    <ul id="myUL">
+        <li>Hit the gym</li>
+        <li class="checked">Pay bills</li>
+        <li>Meet George</li>
+        <li>Buy eggs</li>
+        <li>Read a book</li>
+        <li>Organize office</li>
+    </ul>
+    </div>
+
+    <br>
+
+</body>
+
+</html>

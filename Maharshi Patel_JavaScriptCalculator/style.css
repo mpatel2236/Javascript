@@ -1,0 +1,50 @@
+input {
+    width: 85%;  
+    color: black;
+    padding-left: 20px;
+    padding: 27px 27px;
+    text-align: justify;
+   font-size: 25px;
+    font-weight: bold;
+  border-radius: 5%;
+    align-content: center;
+    
+
+}
+
+form
+{
+    margin-left: 25%;
+    margin-right: auto;
+    align-content: center;
+   
+    border-width: medium;
+}
+h1,footer
+{
+    margin-left: 170px;
+    text-align: center;
+}
+
+
+body {
+    padding-left: 25%;
+    padding-right: 30%;
+    background-color: azure;
+}
+.r1
+{
+    background-color: darkorange;
+    
+}
+
+
+.r2
+{
+    background-color: lightgrey;
+}
+
+.r3
+{
+     background-color: darkgrey;
+}

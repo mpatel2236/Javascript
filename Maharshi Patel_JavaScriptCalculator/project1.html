@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>Scientific Calculator</title>
+
+
+    <meta charset="utf-8">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <script src="main.js"></script>
+
+
+</head>
+
+<body>
+    <h1>Scientific Calculator</h1>
+    <form>
+
+
+        <table>
+            <tr>
+                <td colspan=5><input type="text" id="display"></td>
+            </tr>
+
+
+
+
+
+            <tr>
+                <td><input type="button" Class="r2" value="C" onclick="this.form.display.value=' '  "></td>
+                <td><input type="button" Class="r2" value="<--" onclick="deleteval(this.form.display)"></td>
+                <td><input type="button" Class="r2" value="=" onclick="final(this.form)"></td>
+                <td><input type="button" Class="r2" value="&#960;" onclick="character(this.form.display,'3.14159265')"></td>
+                <td><input type="button" Class="r1" value="%" onclick=" percent(this.form.display)"></td>
+            </tr>
+
+
+
+
+            <tr>
+                <td><input type="button" Class="r3" value="7" onclick="character(this.form.display, '7')"></td>
+                <td><input type="button" Class="r3" value="8" onclick="character(this.form.display, '8')"></td>
+                <td><input type="button" Class="r3" value="9" onclick="character(this.form.display, '9')"></td>
+                <td><input type="button" Class="r3" value="x^" onclick="exp(this.form)"></td>
+                <td><input type="button" Class="r1" value="/" onclick="character(this.form.display, '/')"></td>
+            </tr>
+
+
+
+
+
+
+            <tr>
+                <td><input type="button" Class="r3" value="4" onclick="character(this.form.display, '4')"></td>
+                <td><input type="button" Class="r3" value="5" onclick="character(this.form.display, '5')"></td>
+
+                <td><input type="button" Class="r3" value="6" onclick="character(this.form.display, '6')"></td>
+                <td><input type="button" Class="r3" value="log" onclick="log(this.form)"></td>
+                <td><input type="button" Class="r1" value="*" onclick="character(this.form.display, '*')"></td>
+
+
+            </tr>
+
+
+
+
+
+
+            <tr>
+
+                <td><input type="button" Class="r3" value="1" onclick="character(this.form.display, '1')"></td>
+                <td><input type="button" Class="r3" value="2" onclick="character(this.form.display, '2')"></td>
+                <td><input type="button" Class="r3" value="3" onclick="character(this.form.display, '3')"></td>
+                <td><input type="button" Class="r3" value="&#8730;" onclick="sqrt(this.form)"></td>
+                <td><input type="button" Class="r1" value="-" onclick="character(this.form.display, '-')"></td>
+            </tr>
+
+
+
+
+
+            <tr>
+
+                <td><input type="button" Class="r3" value="&#177;" onclick="sign(this.form.display)"></td>
+                <td><input type="button" Class="r3" value="0" onclick="character(this.form.display, '0')"></td>
+                <td><input type="button" Class="r3" value="&#46;" onclick="character(this.form.display, '&#46;')"></td>
+                <td><input type="button" Class="r3" value="x&#50;" onclick="square(this.form)"></td>
+                <td><input type="button" Class="r1" value="+" onclick="character(this.form.display, '+')"></td>
+            </tr>
+
+
+
+
+
+
+
+
+            <tr>
+                <td><input type="button" Class="r3" value="&#40;" onclick="character(this.form.display, '(')"></td>
+                <td><input type="button" Class="r3" value="&#41;" onclick="character(this.form.display,')')"></td>
+                <td><input type="button" Class="r3" value="cos" onclick="cos(this.form)"></td>
+                <td><input type="button" Class="r3" value="sin" onclick="sin(this.form)"></td>
+                <td><input type="button" Class="r1" value="tan" onclick="tan(this.form)"></td>
+            </tr>
+
+
+
+
+        </table>
+    </form>
+    <br>
+    <br>
+
+
+    <footer>Copyright &copy; 2019 Maharshi Patel</footer>
+
+
+</body>
+
+
+
+
+
+
+</html>
